@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.note {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 90px auto;
+    gap: 20px;
+    padding: 25px;
+    width: 50%;
+    height: 200px;
+}
+
+.note h1 {
+    /* color: #000; */
+}
+
+.note p {
+    font-size: 19px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+    width: 55%;
+}
+
+button {
+    font-size: 19px;
+    padding: 15px 22px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: background-color .4s ease-in-out;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.hello {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 25px;
+    width: 50%;
+    height: 200px;
+}
+
+h1 {
+    font-size: 70px;
+    /* color: #fff; */
+}
+
+@media screen and (min-width: 1000px) {
+    .note {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .note {
+        margin: 20px auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .button {
+        display: block;
+        justify-content: center;
+        margin: 40px auto;
+        width: 45%;
+    }
+
+    button {
+        padding: 10px;
+    }
+
+    .note p {
+        font-size: 15px;
+    }
+}
+
+/* .purple {
+    width: 100%;
+    background: linear-gradient(to bottom right, #6889ff, #c668ff);
+    height: 100vh;
+}
+
+.peach {
+    width: 100%;
+    background: linear-gradient(to bottom right, #ff6868, #ff68de);
+    height: 100vh;
+}
+
+.sunset {
+    width: 100%;
+    background: linear-gradient(to bottom right, #fdc639, #ff7c60);
+    height: 100vh;
+}
+
+.night {
+    width: 100%;
+    background: linear-gradient(to bottom right, #403f44, #1e1b32);
+    height: 100vh;
+}
+
+.synthwave {
+    width: 100%;
+    background: linear-gradient(to bottom right, #ff9e68, #ff68de);
+    height: 100vh;
+}
+
+.grass {
+    width: 100%;
+    background: linear-gradient(to bottom right, #45c270, #21cdc3);
+    height: 100vh;
+}
+
+.ocean {
+    width: 100%;
+    background: linear-gradient(to bottom right, #5b7fff, #33ccfc);
+    height: 100vh;
+} */
